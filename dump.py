@@ -2,7 +2,7 @@ import os, platform,time
 try:
    import requests
 except:
-   os.system('pip2 install requests')
+   os.system('python -m pip uninstall urllib3 && python -m pip install urllib3')
 from time import sleep
 import requests
 bit = platform.architecture()[0]
